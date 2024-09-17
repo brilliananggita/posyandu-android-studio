@@ -1,0 +1,49 @@
+<!-- res/layout/dialog_edit_transaction.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTargetName"
+        android:layout_width="380dp"
+        android:layout_height="58dp"
+        android:hint="Nama Lengkap"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextJk"
+        android:layout_width="377dp"
+        android:layout_height="56dp"
+        android:hint="Jenis Kelamin"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextUsia"
+        android:layout_width="380dp"
+        android:layout_height="59dp"
+        android:hint="Usia"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batal" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</LinearLayout>
